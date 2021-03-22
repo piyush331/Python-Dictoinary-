@@ -1,0 +1,17 @@
+#dictionary is nothing but key value pairs
+#d1 = {}
+#print(type(d1))
+#d2 = {"piyush" : "chole", "ayush" : "chane", "rahul" : {"breakfast" : "bread", "lunch" : "fruit", "dinner" : "roti"}}
+#print(d2["rahul"] ["lunch"])
+#d2["rajiv"] = "phone"
+#d2["pammi"] = "minecraft"
+#print(d2)
+#del(d2["pammi"])
+#print(d2)
+
+Dictionary = {"Computer" : "Computer is an electronic machine that can store, "
+                           "find and arrange information, calculate amounts and control other machines"}
+print("Enter a word")
+Ans = input()
+print(Dictionary[Ans])
+print("Thanks For Using This Dictoniary")
